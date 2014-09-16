@@ -41,6 +41,11 @@ class FeedViewController: UIViewController, UITableViewDataSource, UITableViewDe
     //MARK:
     //MARK: <UITableViewDelegate>
     
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        self.performSegueWithIdentifier("pushToBrowser", sender: self)
+    }
+    
 
     /*
     // MARK: - Navigation
