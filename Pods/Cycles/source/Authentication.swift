@@ -191,7 +191,7 @@ public class BasicAuthentication : Authentication {
     public override func canHandleAuthenticationChallenge(challenge: NSURLAuthenticationChallenge,
         cycle: Cycle) -> Bool {
         var method = challenge.protectionSpace.authenticationMethod
-        if (self.Methods as NSArray).containsObject(method) {
+        if (self.Methods as NSArray).containsObject(method!) {
             return true
         }
             
