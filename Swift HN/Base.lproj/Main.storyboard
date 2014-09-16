@@ -44,11 +44,29 @@
                     <navigationItem key="navigationItem" id="rmH-2S-VgN"/>
                     <connections>
                         <outlet property="tableView" destination="9bd-xk-nM5" id="bqr-Bt-AnO"/>
+                        <segue destination="N19-Hm-Qeq" kind="show" id="hNn-dt-rY1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1397" y="375"/>
+        </scene>
+        <!--Browser View Controller-->
+        <scene sceneID="eTo-Fm-Pjz">
+            <objects>
+                <viewController id="N19-Hm-Qeq" customClass="BrowserViewController" customModule="Swift_HN" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="L5Y-4Q-LP4"/>
+                        <viewControllerLayoutGuide type="bottom" id="Wem-kT-BAG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0nZ-Zj-Y5Z">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eDQ-S5-0Rw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2430" y="375"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="vXV-bF-hhC">

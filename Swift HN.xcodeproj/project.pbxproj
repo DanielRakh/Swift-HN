@@ -14,6 +14,7 @@
 		8E6234C119C8A93D00BBCF11 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E6234BF19C8A93D00BBCF11 /* LaunchScreen.xib */; };
 		8E6234CD19C8A93D00BBCF11 /* Swift_HNTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6234CC19C8A93D00BBCF11 /* Swift_HNTests.swift */; };
 		8EEFB1D719C8B9970043BBB6 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEFB1D619C8B9970043BBB6 /* FeedViewController.swift */; };
+		8EEFB1D919C8DDBC0043BBB6 /* BrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEFB1D819C8DDBC0043BBB6 /* BrowserViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		8E6234CB19C8A93D00BBCF11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E6234CC19C8A93D00BBCF11 /* Swift_HNTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_HNTests.swift; sourceTree = "<group>"; };
 		8EEFB1D619C8B9970043BBB6 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		8EEFB1D819C8DDBC0043BBB6 /* BrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowserViewController.swift; sourceTree = "<group>"; };
 		C8EDE916D11A46189D97F217 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,11 +94,12 @@
 			isa = PBXGroup;
 			children = (
 				8E6234B619C8A93D00BBCF11 /* AppDelegate.swift */,
+				8EEFB1D619C8B9970043BBB6 /* FeedViewController.swift */,
+				8EEFB1D819C8DDBC0043BBB6 /* BrowserViewController.swift */,
 				8E6234BA19C8A93D00BBCF11 /* Main.storyboard */,
 				8E6234BD19C8A93D00BBCF11 /* Images.xcassets */,
 				8E6234BF19C8A93D00BBCF11 /* LaunchScreen.xib */,
 				8E6234B419C8A93D00BBCF11 /* Supporting Files */,
-				8EEFB1D619C8B9970043BBB6 /* FeedViewController.swift */,
 			);
 			path = "Swift HN";
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EEFB1D719C8B9970043BBB6 /* FeedViewController.swift in Sources */,
+				8EEFB1D919C8DDBC0043BBB6 /* BrowserViewController.swift in Sources */,
 				8E6234B719C8A93D00BBCF11 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
